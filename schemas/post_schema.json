@@ -1,0 +1,11 @@
+{
+  "title": "Post",
+  "type": "object",
+  "required": ["id", "title", "body", "userId"],
+  "properties": {
+    "id": { "type": "integer" },
+    "userId": { "type": "integer" },
+    "title": { "type": "string" },
+    "body": { "type": "string" }
+  }
+}

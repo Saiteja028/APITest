@@ -1,0 +1,26 @@
+# Development environment configuration.
+# Values here can be overridden by matching environment variables (see .env.example).
+name: dev
+base_url: https://jsonplaceholder.typicode.com
+timeout_ms: 30000
+ignore_https_errors: false
+
+# Default headers sent with every request
+default_headers:
+  Accept: application/json
+  Content-Type: application/json
+
+# Auth strategy: none | bearer | basic | api_key
+auth:
+  strategy: none
+  token: ""
+  username: ""
+  password: ""
+  api_key_header: X-API-Key
+  api_key: ""
+
+# Per-service base paths (kept relative to base_url)
+services:
+  users: /users
+  posts: /posts
+  comments: /comments

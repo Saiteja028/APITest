@@ -1,0 +1,19 @@
+# ---- Core ----
+playwright==1.48.0
+pytest==8.3.3
+pytest-playwright==0.5.2
+
+# ---- Reporting & test UX ----
+pytest-html==4.1.1
+pytest-xdist==3.6.1          # parallel execution
+pytest-rerunfailures==14.0   # auto-retry flaky tests
+pytest-metadata==3.1.1
+
+# ---- Config & data ----
+python-dotenv==1.0.1
+PyYAML==6.0.2
+jsonschema==4.23.0
+faker==30.3.0                # synthetic test data
+
+# ---- Auth helpers ----
+PyJWT==2.9.0

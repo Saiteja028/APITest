@@ -1,0 +1,22 @@
+# QA environment configuration.
+name: qa
+base_url: https://jsonplaceholder.typicode.com
+timeout_ms: 30000
+ignore_https_errors: false
+
+default_headers:
+  Accept: application/json
+  Content-Type: application/json
+
+auth:
+  strategy: none
+  token: ""
+  username: ""
+  password: ""
+  api_key_header: X-API-Key
+  api_key: ""
+
+services:
+  users: /users
+  posts: /posts
+  comments: /comments

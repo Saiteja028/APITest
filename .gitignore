@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Test / build artifacts
+.pytest_cache/
+reports/
+logs/
+*.log
+allure-results/
+htmlcov/
+.coverage
+coverage.xml
+
+# Secrets & local config
+.env
+*.local.yaml
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
